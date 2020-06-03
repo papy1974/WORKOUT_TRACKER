@@ -2,6 +2,8 @@ title
 
 workout-tracker
 
+here is the heroku link:https://salty-coast-04361.herokuapp.com/
+
 Summary
 This project emphasizes the use of PWA using npm compression, manifest.webmanifest on an existing app that uses MongoDB, mongoose, morgan, and express, to dynamically update a fitness tracking app
 
