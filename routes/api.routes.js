@@ -44,3 +44,18 @@ router.put("/workouts/:id", ({ params, body }, res) => {
             res.json(err);
         });
 });
+
+// createWorkout POST /api/workouts
+
+router.post("/workouts", ({ body }, res) => {
+    console.log(body);
+    db.Workout.create({})
+        .then(dbWorkout => {
+            res.json(dbWorkout);
+        })
+        .catch(err => {
+            res.json(err);
+        });
+
+    res.send('Got a POST request')
+});
