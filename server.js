@@ -21,7 +21,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://jamierachael:Cheeseme1@ds141924.mlab.com:41924/heroku_rp5k8lsz", { useNewUrlParser: true, useUnifiedTopology: true }).then(() => console.log(`Successfully connected to database: ${databaseName}`))
+mongoose.connect(process.env.MONGODB_URI || "mongodb://user3:boyombo1974@ds229295.mlab.com:29295/heroku_5xrtz3bv", { useNewUrlParser: true, useUnifiedTopology: true }).then(() => console.log(`Successfully connected to database: ${databaseName}`))
 
 // Requiring our routes and listener event
 
