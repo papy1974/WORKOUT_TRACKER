@@ -1,6 +1,10 @@
-title 
+Title 
 
 workout-tracker
+
+Languages and Tools used:
+
+Javascript, MongoDB, mongoose, morgan,  express, git. 
 
 here is the heroku link:https://salty-coast-04361.herokuapp.com/
 ![workout](https://user-images.githubusercontent.com/58053159/84223561-3c3bc880-aaa8-11ea-8605-ba68fb035d2a.png)
